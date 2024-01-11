@@ -1,0 +1,45 @@
+﻿  i4mp__private__init.c
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(34,82): error C2085: 'i4mp__get_machine_count': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(45,102): error C2085: 'i4mp__get_connect_to_machine_status': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(46,99): error C2085: 'i4mp__get_simulation_mode_status': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(47,93): error C2085: 'i4mp__get_operating_status': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(48,79): error C2085: 'i4mp__get_id': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(49,89): error C2085: 'i4mp__get_manufacturer': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(50,82): error C2085: 'i4mp__get_model': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(51,90): error C2085: 'i4mp__get_serial_number': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(52,81): error C2085: 'i4mp__get_name': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(53,85): error C2085: 'i4mp__get_facility': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(54,85): error C2085: 'i4mp__get_cnc_name': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(59,94): error C2085: 'i4mp__get_connection_status': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(60,94): error C2085: 'i4mp__get_production_status': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(61,89): error C2085: 'i4mp__get_part_counter': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(62,87): error C2085: 'i4mp__get_cycle_time': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(63,94): error C2085: 'i4mp__get_part_program_name': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(69,42): error C2085: 'i4mp__get_application_version': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(70,51): error C2085: 'i4mp__sleep_milliseconds': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp.h(71,29): error C2085: 'i4mp__print_agents': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(8,17): error C2085: 'fn': not in formal parameter list
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(8,17): error C2143: syntax error: missing ';' before '='
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(11,9): error C2086: 'i4mp_t *i4mp': redefinition
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private.h(45): message : see declaration of 'i4mp'
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(30,45): error C2065: 'fn': undeclared identifier
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(30,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(30,10): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'int'
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(44,60): error C2065: 'fn': undeclared identifier
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(44,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(44,10): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'int'
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(94,70): error C2065: 'fn': undeclared identifier
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(94,11): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(94,11): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'int'
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(111,71): error C2065: 'fn': undeclared identifier
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(111,11): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(111,11): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'int'
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(135,45): error C2065: 'fn': undeclared identifier
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(135,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(135,10): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'int'
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(149,60): error C2065: 'fn': undeclared identifier
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(149,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(149,10): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'int'
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(215,70): error C2065: 'fn': undeclared identifier
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(215,11): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+D:\PROGS\prog-97--i4mp\source\i4mp\i4mp__private__init.c(215,11): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'int'

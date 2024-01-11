@@ -1,0 +1,144 @@
+#
+# The semicolon character ; is the field separator. 
+#
+# If a field has to contain a semicolon than the user must convert it to: !s
+#
+#       !s  is converted to  ;
+#
+#       !!  is converted to  !
+#
+#       !c  is converted to  !    where c is any character but s and !
+#
+
+
+#
+#  [SIEMENS-OPEN62541 AGENT]
+# 
+#  2  ENABLE PRINTF = YES / NO
+#  3  ENABLE LOG FILE = YES / NO
+#  4  LOG FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\log\i4mp_log.txt
+#  5  MAX LOG FILE LINES PER MINUTE = 120
+#  6  ENABLE TABLE LAYOUT OUTPUT = YES / NO
+#  7  ENABLE AGENT NAME ON OUTPUT = YES / NO
+
+
+#  8  MAIN THREAD SLEEP TIME IN SECONDS = 5
+#  9  PROBABILITY OF SUCCESS OF EVENTS IN SIMULATION MODE IN PERCENTAGE = 99
+#
+#AGENT DATA = SIEMENS-OPEN62541; YES; YES; D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\log\i4mp_log.txt; 120; YES; YES; 5; 99
+
+
+[AGENTS]
+ENABLE PRINTF = YES
+ENABLE LOG FILE = YES
+
+
+#
+#  [SIEMENS-OPEN62541 MACHINE]
+#
+#  MACHINE ID
+#  
+#      ID = 1
+#
+#
+#  MACHINE NAME
+#  
+#      NAME = SCY45HT-2018
+#
+#
+#  MACHINE OPERATING MODE DATA
+#  
+#      NETWORKED = YES / NO
+#      MODE = RUN / SIMULATION
+#      ACTIVE = YES / NO
+#
+#
+#  MACHINE PLATE DATA
+#  
+#      MANUFACTURER = UTIMAC
+#      MODEL = SCY45HT
+#      SERIAL NUMBER = N44
+#      MANUFACTURE YEAR = 2017
+#
+#
+#
+#
+#  MACHINE GEOLOCATION DATA
+#  
+#      ORGANIZATION = FATTI MECCANICA srl
+#      FACILITY = FINOTTO
+#      DEPARTMENT = PRODUCTION
+#      DEPARTMENT LOCATION COORDINATES = LEFT 2
+#
+#
+#  MACHINE TECHNICAL DATA
+#  
+#      CNC = SIEMENS 840D
+#      HMI = ESA AUTOMATION VT550
+#      
+#
+#  MACHINE FEEDER DATA
+#  
+#      FEEDER MANUFACTURER = FUMAGALLI
+#      FEEDER MODEL = A;13-41
+#      FEEDER SERIAL NUMBER = 1234
+#      FEEDER MANUFACTURE YEAR = 2012
+#
+#
+#  MACHINE SIMULATION DATA
+#  
+#      PART COUNTER INITIAL VALUE IN SIMULATION MODE = 1000
+#      AVERAGE CYCLE TIME SECONDS IN SIMULATION MODE = 25
+#      PART PROGRAM NAME IN SIMULATION MODE = O9999
+#
+#
+#    NAME 1 = --------
+#    NAME 2 = --------
+#  OPC SERVER - CONNECTION DATA
+#  
+#      OPC SERVER IP-V4 ADDRESS = 192.168.1.102
+#      OPC SERVER IP-V4 PORT = 4840; 
+#      OPC SERVER USER NAME = opc-server-user-name
+#      OPC SERVER PASSWORD = opc-server-password
+#
+#
+#  OPC SERVER PRIVATE KEY FILE OF CLIENT
+#  
+#      
+#      OPC SERVER PRIVATE KEY FILE = C:\certificates\server_key.der
+# 
+#  OPC SERVER CERTIFICATE FILE OF CLIENT
+#
+#      OPC SERVER CERTIFICATE FILE = C:\certificates\server_cert.der
+#
+#  OPC SERVER NODES DATA
+#  
+#      OPC SERVER PART COUNTER NODE PATH = /Nck/State/aDbd[236]
+#      OPC SERVER CYCLE TIME NODE PATH = /Channel/Parameter/rpa[u1,90]
+#      OPC SERVER CYCLE PART PROGRAM NAME PATH = /Channel/ProgramInfo/workPNameLong
+#
+#
+
+
+[SIEMENS-OPEN62541 MACHINE]
+MACHINE ID = 5
+MACHINE NAME = SCY45HT-2018
+
+MACHINE OPERATING MODE DATA = NETWORKED; RUN; ACTIVE   NOT NTWORKED
+
+MACHINE NETWORKED = YES/MO
+MACHINE MODE = RUN/SIMULATION
+#MACHINE ACTIVE = YES/NO
+
+MACHINE SIMULATION DATA = 1000; 25; O9999
+
+#MACHINE PLATE DATA = UTIMAC; SCY45HT; N44; 2017
+##MACHINE GEOLOCATION DATA = FATTI MECCANICA srl; FINOTTO; PRODUZIONE; LEFT 2
+#MACHINE TECHNICAL DATA = SIEMENS 840D; SIEMENS HMI
+#MACHINE FEEDER DATA = FUMAGALLI; A!s13-41; 1234; 2012
+
+MACHINE OPC SERVER CONNECTION DATA = 192.168.1.51; 4840; OpcUaClient; SUNRISE1
+MACHINE OPC SERVER PRIVATE KEY FILE OF CLIENT = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\certificates\server_key.der
+MACHINE OPC SERVER CERTIFICATE FILE OF CLIENT = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\certificates\server_cert.der
+MACHINE OPC SERVER NODES DATA = /Nck/State/aDbd[236]; /Channel/Parameter/rpa[u1,90]; /Channel/ProgramInfo/workPNameLong
+

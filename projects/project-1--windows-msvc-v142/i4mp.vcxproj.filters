@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\extern">
+      <UniqueIdentifier>{9e882692-b82b-484a-9737-aa408d22721a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\extern\open62541">
+      <UniqueIdentifier>{e1779e19-e079-4ca8-b025-b2ae19896441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\extern\open62541\platform">
+      <UniqueIdentifier>{5677f5e5-6e58-4d67-8380-9116618c401a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\extern\open62541\platform\windows">
+      <UniqueIdentifier>{a3688623-6290-4c9d-9f64-382dd8405c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\extern\utils">
+      <UniqueIdentifier>{291f8022-d4f2-4bb1-a398-fc6cece21313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\extern\utils\platform">
+      <UniqueIdentifier>{0ac309e0-ed17-4d0f-ba07-1b4deca5b61d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\extern\utils\platform\windows">
+      <UniqueIdentifier>{074ffd5e-dbbc-471e-913f-d78f17731f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\agency">
+      <UniqueIdentifier>{2283947c-c71e-4f3e-b398-b066f7342978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\agency_tests">
+      <UniqueIdentifier>{69af7b85-8c51-4c97-818e-817cb75947a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\agency\agent__fanuc_focas">
+      <UniqueIdentifier>{9d00d839-0b46-4193-b7a7-ca51629de917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\agency\agent__fanuc_focas\platform">
+      <UniqueIdentifier>{68f10ba9-13cf-4e11-a4fc-6646d4333439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\agency\agent__fanuc_focas\platform\windows">
+      <UniqueIdentifier>{4fddf6b5-3cd0-4b1e-820f-d910e5cdfa2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\agency\agent__okuma_okuma">
+      <UniqueIdentifier>{3ea151c9-7d74-47ae-b956-b249b4656eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\agency\agent__okuma_okuma\platform">
+      <UniqueIdentifier>{977384e2-591f-4837-9b3b-c137506a5cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\agency\agent__okuma_okuma\platform\windows">
+      <UniqueIdentifier>{6f06e770-a274-4289-8ca7-cdf44b22a52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\agency\agent__siemens_open62541">
+      <UniqueIdentifier>{63055395-71e9-4f40-863c-8a49d93b15ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\agency\agent__siemens_open62541\platform">
+      <UniqueIdentifier>{c42831e6-b755-4f01-b51a-85794bdd3c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\agency\agent__siemens_open62541\platform\windows">
+      <UniqueIdentifier>{be171aad-83a3-4577-9007-1542d8e0c77b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\i4mp-tests\main.c">
+      <Filter>Source Files\agency_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__build_fully_qualified_file_name.c">
+      <Filter>Source Files\extern\utils\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__create_directory_by_dir_name.c">
+      <Filter>Source Files\extern\utils\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__create_empty_file.c">
+      <Filter>Source Files\extern\utils\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__create_path.c">
+      <Filter>Source Files\extern\utils\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__does_file_exist.c">
+      <Filter>Source Files\extern\utils\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__does_path_exist.c">
+      <Filter>Source Files\extern\utils\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__empty_file.c">
+      <Filter>Source Files\extern\utils\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__get_path_separator.c">
+      <Filter>Source Files\extern\utils\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__make_absolute_file_name.c">
+      <Filter>Source Files\extern\utils\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__make_file_and_dir_log_names.c">
+      <Filter>Source Files\extern\utils\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__remove_file.c">
+      <Filter>Source Files\extern\utils\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__sleep.c">
+      <Filter>Source Files\extern\utils\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__touch_file.c">
+      <Filter>Source Files\extern\utils\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp-tests\agency__test_1.c">
+      <Filter>Source Files\agency_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\open62541\platform\windows\open62541.c">
+      <Filter>Source Files\extern\open62541\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__xml__extract_inner_xml.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__utf_8__validate_data.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__utf_8__memcmp.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__utf_8__get_symbol.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__utf_8__get_next_symbol.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__utf_8__count_symbols.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__time__get_iso_extended_time.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__time__get_iso_extended_date.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__time__get_iso_date.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__time__get_integer_date.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__time__get_date.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__write_1_or_0.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__write_urlencoded_data_to_sdb.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__write_record_to_file.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__write_pair_to_sdb.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__validate_name.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__search_index_by_name.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__replace_value_in_position.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__read_record_from_file.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__read_record_from_buffer.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__print_sdb.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__print_records_index.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__match_sdb_names_rows.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__match_sdb_names.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__init.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__index_file.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__count_sections_from_buffer.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__config.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__compare_two_sdbs.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__clear_sdb.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__check_names.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__append_sdb.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__printf__warning.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__printf__init.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__printf__info.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__printf__flush.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__printf__error.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__printf__config.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__percent_encoding__encode_strict.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__percent_encoding__encode.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__percent_encoding__decode_data_strict.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__percent_encoding__decode__data.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__validate_unsigned_long_number.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__validate_size_t_number.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__validate_ipv4_address.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__validate_int_number.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__ustoa.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__ultoa.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__trim_string.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__tokenize_string.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__sttoa.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__strstr.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__strnchr.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__stoa.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__ltoa.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__itoa.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__count_trimmeable_characters.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__copy_buffer.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__convert_utf8_data_to_percent_encoded_data.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__compact_spaces.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__check_for_duplicate_names.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__check_doubles_for_equality.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__build_url_buffer.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__atoul.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__atost.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__atoi.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__atod.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__language_iso_639_1__validate_code.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__lang__print_dictionary.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__lang__init.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__lang__get_word.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__lang__config.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__get_application_version_2.3.1.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__base_64__get_size_of_encoded_buffer.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__base_64__encode.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__base_64__decode.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__count_sections_from_file.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__read_configuration_from_buffer.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__read_configuration_from_file.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__write_double.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__write_int.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__write_size_t.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__write_string.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__write_option.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp-tests\todo.c">
+      <Filter>Source Files\agency_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__unescape_buffer.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__get_application_name.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__get_application_name_and_version.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__print_tokens.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__trim_tokens.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__get_file_size.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__read_file.c">
+      <Filter>Source Files\extern\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__private__check_and_preprocess_input_data.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__get_machine_cycle_time.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__get_machine_id.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__get_machine_name.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__get_machine_part_counter.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__get_machine_part_program_name.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__get_number_of_machines.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__private__convert_machine_descriptor_to_agent_descriptor.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__private__get_machine_data.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__private__read_machine_cycle_time.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__sleep.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__start.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__config.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__init.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__private__connect_to_machine.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__read_configuration_file.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__private__load_machines_configuration_data.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__private__read_machine_part_counter.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__private__suspend_thread.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__private__thread.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__private__read_machine_part_program_name.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__private__check_machine_and_input_parameters.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__private__check_input_parameters_and_preproccess_input_data.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__private__read_data_stream.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__get_machine_status_run.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__get_machine_status_alarm.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__okuma_okuma\platform\windows\agent__okuma_okuma__platform__private__connect_to_machine.c">
+      <Filter>Source Files\agency\agent__okuma_okuma\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__okuma_okuma\platform\windows\agent__okuma_okuma__platform__private__read_machine_cycle_time.c">
+      <Filter>Source Files\agency\agent__okuma_okuma\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__okuma_okuma\platform\windows\agent__okuma_okuma__platform__private__read_machine_part_counter.c">
+      <Filter>Source Files\agency\agent__okuma_okuma\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__okuma_okuma\platform\windows\agent__okuma_okuma__platform__private__read_machine_part_program_name.c">
+      <Filter>Source Files\agency\agent__okuma_okuma\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__okuma_okuma\platform\windows\agent__okuma_okuma__platform__private__start.c">
+      <Filter>Source Files\agency\agent__okuma_okuma\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__okuma_okuma\platform\windows\agent__okuma_okuma__platform__private__stop.c">
+      <Filter>Source Files\agency\agent__okuma_okuma\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__okuma_okuma\platform\windows\agent__okuma_okuma__platform__private__task__read_machine_data.c">
+      <Filter>Source Files\agency\agent__okuma_okuma\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__siemens_open62541\platform\windows\agent__siemens_open62541__platform__private__connect_to_machine.c">
+      <Filter>Source Files\agency\agent__siemens_open62541\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__siemens_open62541\platform\windows\agent__siemens_open62541__platform__private__read_machine_cycle_time.c">
+      <Filter>Source Files\agency\agent__siemens_open62541\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__siemens_open62541\platform\windows\agent__siemens_open62541__platform__private__read_machine_part_counter.c">
+      <Filter>Source Files\agency\agent__siemens_open62541\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__siemens_open62541\platform\windows\agent__siemens_open62541__platform__private__read_machine_part_program_name.c">
+      <Filter>Source Files\agency\agent__siemens_open62541\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__siemens_open62541\platform\windows\agent__siemens_open62541__platform__private__read_machine_status_alarm.c">
+      <Filter>Source Files\agency\agent__siemens_open62541\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__siemens_open62541\platform\windows\agent__siemens_open62541__platform__private__read_machine_status_run.c">
+      <Filter>Source Files\agency\agent__siemens_open62541\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__siemens_open62541\platform\windows\agent__siemens_open62541__platform__private__start.c">
+      <Filter>Source Files\agency\agent__siemens_open62541\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__siemens_open62541\platform\windows\agent__siemens_open62541__platform__private__stop.c">
+      <Filter>Source Files\agency\agent__siemens_open62541\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__connect_to_machine.c">
+      <Filter>Source Files\agency\agent__fanuc_focas\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__read_machine_cycle_time.c">
+      <Filter>Source Files\agency\agent__fanuc_focas\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__read_machine_part_counter.c">
+      <Filter>Source Files\agency\agent__fanuc_focas\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__read_machine_part_program_name.c">
+      <Filter>Source Files\agency\agent__fanuc_focas\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__start.c">
+      <Filter>Source Files\agency\agent__fanuc_focas\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__stop.c">
+      <Filter>Source Files\agency\agent__fanuc_focas\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__stop.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__okuma_okuma\platform\windows\agent__okuma_okuma__platform__init.c">
+      <Filter>Source Files\agency\agent__okuma_okuma\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__sleep_thread.c">
+      <Filter>Source Files\agency\agent__fanuc_focas\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__thread.c">
+      <Filter>Source Files\agency\agent__fanuc_focas\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__init.c">
+      <Filter>Source Files\agency\agent__fanuc_focas\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__config.c">
+      <Filter>Source Files\agency\agent__fanuc_focas\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__is_agent_configured.c">
+      <Filter>Source Files\agency\agent__fanuc_focas\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__get_number_of_agents.c">
+      <Filter>Source Files\agency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__get_number_of_machines.c">
+      <Filter>Source Files\agency\agent__fanuc_focas\platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__get_machine_id.c">
+      <Filter>Source Files\agency\agent__fanuc_focas\platform\windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

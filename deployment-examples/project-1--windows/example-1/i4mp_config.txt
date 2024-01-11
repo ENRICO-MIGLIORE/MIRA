@@ -1,0 +1,182 @@
+#
+# The semicolon character ; is the field separator. 
+#
+# If a field has to contain a semicolon than the user must convert it to: !s
+#
+#       !s  is converted to  ;
+#
+#       !!  is converted to  !
+#
+#       !c  is converted to  !    provided c is any character but s and !
+#
+
+
+
+[AGENCY]
+ENABLE PRINTF = YES
+ENABLE LOG FILE = YES
+LOG FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\log\i4mp_log.txt
+MAX LOG FILE LINES PER MINUTE = 120
+
+
+
+#      STATUS = WORKING / NOT WORKING
+#      NETWORKED = YES / NO
+#      MODE = RUN / SIMULATION
+#      
+
+[AGENT FANUC-FOCAS]
+ENABLE PRINTF = YES
+
+
+
+
+
+[MACHINE FANUC-FOCAS]
+ENABLE PRINTF = YES
+LOG FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\log\i4mp_log.txt
+MAX LOG FILE LINES PER MINUTE = 120
+PROBABILITY OF SUCCESS OF EVENTS IN SIMULATION MODE = 95
+THREAD SLEEP TIME = 5
+# MODE = RUN / SIMULATION
+MODE = RUN
+NETWORKED = YES
+OPERATING = YES
+
+
+
+[AGENT SIEMENS-OPEN62541]
+ENABLE PRINTF = YES
+
+
+#[MACHINE SIEMENS-OPEN62541]
+#ID = 5
+#NAME = SCY45HT-2018
+#NETWORKED = YES
+#RUN = YES
+#SIMULATION = NO
+#OPC-UA SERVER IP-V4 ADDRESS = 192.168.1.51
+#OPC-UA SERVER IP-V4 PORT = 4840
+#OPC-UA SERVER USER NAME = OpcUaClient
+#OPC-UA SERVER PASSWORD = SUNRISE1
+#OPC-UA SERVER NODE ID = 2
+#OPC-UA SERVER PART COUNTER NODE PATH = /Nck/State/aDbd[236]
+#OPC-UA SERVER CYCLE TIME NODE PATH = /Channel/Parameter/rpa[u1,90]
+#OPC-UA SERVER PART PROGRAM NAME NODE PATH = /Channel/ProgramInfo/workPNameLong
+#OPC-UA SERVER STATUS RUN NODE PATH = /Channel/State/acProg[u1,1]
+#OPC-UA SERVER STATUS ALARM NODE PATH = /Channel/State/acProg[u1,1]
+#OPC-UA CLIENT PRIVATE KEY FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\certificates\server_key.der
+#OPC-UA CLIENT PRIVATE CERTIFICATE FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\certificates\server_cert.der
+#
+
+#[MACHINE SIEMENS-OPEN62541]
+#ID = 6
+#NAME = SCN32HT-2017
+#NETWORKED = YES
+#RUN = YES
+#SIMULATION = NO
+#OPC-UA SERVER IP-V4 ADDRESS = 192.168.1.102
+#OPC-UA SERVER IP-V4 PORT = 4840
+#OPC-UA SERVER USER NAME = OpcUaClient
+#OPC-UA SERVER PASSWORD = SUNRISE
+#OPC-UA SERVER NODE ID = 2
+#OPC-UA SERVER PART COUNTER NODE PATH = /Nck/State/aDbd[236]
+#OPC-UA SERVER CYCLE TIME NODE PATH = /Channel/Parameter/rpa[u1,90]
+#OPC-UA SERVER PART PROGRAM NAME NODE PATH = /Channel/ProgramInfo/workPNameLong
+#OPC-UA SERVER STATUS RUN NODE PATH = /Channel/State/acProg[u1,1]
+#OPC-UA SERVER STATUS ALARM NODE PATH = /Channel/State/acProg[u1,1]
+#OPC-UA CLIENT PRIVATE KEY FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\certificates\server_key.der
+#OPC-UA CLIENT PRIVATE CERTIFICATE FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\certificates\server_cert.der
+#
+
+
+
+#[MACHINE SIEMENS-OPEN62541]
+#ID = 7
+#NAME = SC7-32
+#NETWORKED = YES
+#RUN = YES
+#SIMULATION = NO
+#OPC-UA SERVER IP-V4 ADDRESS = 192.168.1.26
+#OPC-UA SERVER IP-V4 PORT = 8888
+#OPC-UA SERVER USER NAME = SICS.connect
+#OPC-UA SERVER PASSWORD = Freiheit_neu_definiert2016
+#OPC-UA SERVER NODE ID = 1
+#OPC-UA SERVER PART COUNTER NODE PATH = TotalCount
+#OPC-UA SERVER CYCLE TIME NODE PATH = WorkpieceTime 
+#OPC-UA SERVER PART PROGRAM NAME NODE PATH = WorkpieceName
+#OPC-UA SERVER STATUS RUN NODE PATH = MachineStatus
+#OPC-UA SERVER STATUS ALARM NODE PATH = MachineStatus
+#OPC-UA CLIENT PRIVATE KEY FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\certificates\server_key.der
+#OPC-UA CLIENT PRIVATE CERTIFICATE FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\certificates\server_cert.der
+
+
+
+
+
+
+#[MACHINE SIEMENS-OPEN62541]
+#ID = 7
+#NAME = STL38
+#NETWORKED = YES
+#RUN = YES
+#SIMULATION = NO
+#OPC-UA SERVER IP-V4 ADDRESS = 192.168.1.85
+#OPC-UA SERVER IP-V4 PORT = 4840
+#OPC-UA SERVER USER NAME = -
+#OPC-UA SERVER PASSWORD = -
+#OPC-UA SERVER PART COUNTER NODE PATH = /Channel/State/totalParts[u1,1]
+#OPC-UA SERVER CYCLE TIME NODE PATH = /Channel/Parameter/R[u1,65]
+#OPC-UA SERVER PART PROGRAM NAME NODE PATH = /Channel/ProgramInfo/workPNameLong
+#OPC-UA CLIENT PRIVATE KEY FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\certificates\server_key.der
+#OPC-UA CLIENT PRIVATE CERTIFICATE FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\certificates\server_cert.der
+#
+
+#[MACHINE FANUC-FOCAS]
+#ID = 8
+#NAME = BIGLIONE
+#NETWORKED = YES
+#RUN = YES
+#SIMULATION = NO
+#ENABLE PRINTF = YES
+#ENABLE LOG FILE = YES
+#LOG FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\log\i4mp_log.txt
+#MAX LOG FILE LINES PER MINUTE = 120
+#
+#FANUC-TCP SERVER IP-V4 ADDRESS = 192.168.1.77
+#FANUC-TCP SERVER IP-V4 PORT = 8193
+
+
+[MACHINE OKUMA-OKUMA]
+ID = 9
+NAME = LT2000-2021
+NETWORKED = YES
+RUN = YES
+SIMULATION = NO
+ENABLE PRINTF = YES
+ENABLE LOG FILE = YES
+LOG FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\log\i4mp_log.txt
+MAX LOG FILE LINES PER MINUTE = 120
+OKUMA-TCP RECEIVE BUFFER SIZE = 256000
+OKUMA-TCP SEND BUFFER SIZE = 1024
+OKUMA-TCP HTTP REQUEST STRING = GET /current HTTP/1.1
+OKUMA-TCP SERVER IP-V4 ADDRESS = 192.168.1.242
+OKUMA-TCP SERVER IP-V4 PORT = 5000
+
+
+
+#[MACHINE FANUC-FOCAS]
+#ID = 8
+#NAME = WALTER
+#NETWORKED = YES
+#RUN = YES
+#SIMULATION = NO
+#ENABLE PRINTF = YES
+#ENABLE LOG FILE = YES
+#LOG FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\log\i4mp_log.txt
+#MAX LOG FILE LINES PER MINUTE = 120
+#FANUC-TCP SERVER IP-V4 ADDRESS = 192.168.1.34
+#FANUC-TCP SERVER IP-V4 PORT = 8193
+#
+#FANUC-VARIABLE DATE =
+#FANUC-VARIABLE TIME =

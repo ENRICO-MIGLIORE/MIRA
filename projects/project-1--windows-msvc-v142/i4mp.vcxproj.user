@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-f D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\i4mp_config.txt</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)\..\..\build\project-1--windows-msvc-v142\i4mp-1.0.0-64-bit-debug-exe</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-64-bit-debug-lib|x64'">
+    <LocalDebuggerCommandArguments />
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)\..\..\build\project-1--windows-msvc-v142\i4mp-1.0.0-64-bit-debug-exe</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-1.1.9-64-bit-debug-lib|x64'">
+    <LocalDebuggerCommandArguments />
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)\..\..\build\project-1--windows-msvc-v142\i4mp-1.0.0-64-bit-debug-exe</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+</Project>

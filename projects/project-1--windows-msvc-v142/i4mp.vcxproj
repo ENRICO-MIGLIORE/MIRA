@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="i4mp-1.1.9-64-bit-debug-lib|Win32">
+      <Configuration>i4mp-1.1.9-64-bit-debug-lib</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="i4mp-1.1.9-64-bit-debug-lib|x64">
+      <Configuration>i4mp-1.1.9-64-bit-debug-lib</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="i4mp-64-bit-debug-lib|Win32">
+      <Configuration>i4mp-64-bit-debug-lib</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="i4mp-64-bit-debug-lib|x64">
+      <Configuration>i4mp-64-bit-debug-lib</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\extern\source\open62541\platform\windows\open62541.c" />
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__build_fully_qualified_file_name.c" />
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__create_directory_by_dir_name.c" />
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__create_empty_file.c" />
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__create_path.c" />
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__does_file_exist.c" />
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__does_path_exist.c" />
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__empty_file.c" />
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__get_path_separator.c" />
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__make_absolute_file_name.c" />
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__make_file_and_dir_log_names.c" />
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__remove_file.c" />
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__sleep.c" />
+    <ClCompile Include="..\..\extern\source\utils\platform\windows\utils__platform__touch_file.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__base_64__decode.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__base_64__encode.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__base_64__get_size_of_encoded_buffer.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__get_application_name.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__get_application_name_and_version.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__get_application_version_2.3.1.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__language_iso_639_1__validate_code.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__lang__config.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__lang__get_word.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__lang__init.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__lang__print_dictionary.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__atod.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__atoi.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__atost.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__atoul.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__build_url_buffer.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__check_doubles_for_equality.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__check_for_duplicate_names.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__compact_spaces.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__convert_utf8_data_to_percent_encoded_data.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__copy_buffer.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__count_trimmeable_characters.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__get_file_size.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__itoa.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__ltoa.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__print_tokens.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__read_file.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__stoa.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__strnchr.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__strstr.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__sttoa.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__tokenize_string.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__trim_string.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__trim_tokens.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__ultoa.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__unescape_buffer.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__ustoa.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__validate_int_number.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__validate_ipv4_address.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__validate_size_t_number.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__validate_unsigned_long_number.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__write_option.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__percent_encoding__decode_data_strict.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__percent_encoding__decode__data.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__percent_encoding__encode.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__percent_encoding__encode_strict.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__printf__config.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__printf__error.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__printf__flush.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__printf__info.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__printf__init.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__printf__warning.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__append_sdb.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__check_names.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__clear_sdb.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__compare_two_sdbs.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__config.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__count_sections_from_buffer.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__count_sections_from_file.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__index_file.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__init.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__match_sdb_names.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__match_sdb_names_rows.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__print_records_index.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__print_sdb.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__read_configuration_from_buffer.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__read_configuration_from_file.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__read_record_from_buffer.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__read_record_from_file.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__replace_value_in_position.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__search_index_by_name.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__validate_name.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__write_double.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__write_int.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__write_pair_to_sdb.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__write_record_to_file.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__write_size_t.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__write_string.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__sdb__write_urlencoded_data_to_sdb.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__libc__write_1_or_0.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__time__get_date.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__time__get_integer_date.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__time__get_iso_date.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__time__get_iso_extended_date.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__time__get_iso_extended_time.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__utf_8__count_symbols.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__utf_8__get_next_symbol.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__utf_8__get_symbol.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__utf_8__memcmp.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__utf_8__validate_data.c" />
+    <ClCompile Include="..\..\extern\source\utils\utils__xml__extract_inner_xml.c" />
+    <ClCompile Include="..\..\source\i4mp-tests\agency__test_1.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='i4mp-64-bit-debug-lib|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp-tests\main.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='i4mp-1.1.9-64-bit-debug-lib|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='i4mp-64-bit-debug-lib|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp-tests\todo.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='i4mp-64-bit-debug-lib|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\source\i4mp\agency__get_machine_status_alarm.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__get_machine_status_run.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__get_number_of_agents.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__private__read_data_stream.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__config.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__init.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__private__check_and_preprocess_input_data.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__get_machine_part_program_name.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__private__check_input_parameters_and_preproccess_input_data.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__private__check_machine_and_input_parameters.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__private__connect_to_machine.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__private__convert_machine_descriptor_to_agent_descriptor.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__get_machine_cycle_time.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__private__get_machine_data.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__get_machine_id.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__get_machine_name.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__get_machine_part_counter.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__get_number_of_machines.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__read_configuration_file.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__private__load_machines_configuration_data.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__private__read_machine_cycle_time.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__private__read_machine_part_counter.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__private__read_machine_part_program_name.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__private__suspend_thread.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__private__thread.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__sleep.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__start.c" />
+    <ClCompile Include="..\..\source\i4mp\agency__stop.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__config.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__connect_to_machine.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__get_machine_id.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__get_number_of_machines.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__init.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__is_agent_configured.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__read_machine_cycle_time.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__read_machine_part_counter.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__read_machine_part_program_name.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__start.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__stop.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__sleep_thread.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__thread.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__okuma_okuma\platform\windows\agent__okuma_okuma__platform__init.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__okuma_okuma\platform\windows\agent__okuma_okuma__platform__private__connect_to_machine.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__okuma_okuma\platform\windows\agent__okuma_okuma__platform__private__read_machine_cycle_time.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__okuma_okuma\platform\windows\agent__okuma_okuma__platform__private__read_machine_part_counter.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__okuma_okuma\platform\windows\agent__okuma_okuma__platform__private__read_machine_part_program_name.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__okuma_okuma\platform\windows\agent__okuma_okuma__platform__private__start.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__okuma_okuma\platform\windows\agent__okuma_okuma__platform__private__stop.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__okuma_okuma\platform\windows\agent__okuma_okuma__platform__private__task__read_machine_data.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__siemens_open62541\platform\windows\agent__siemens_open62541__platform__private__connect_to_machine.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__siemens_open62541\platform\windows\agent__siemens_open62541__platform__private__read_machine_cycle_time.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__siemens_open62541\platform\windows\agent__siemens_open62541__platform__private__read_machine_part_counter.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__siemens_open62541\platform\windows\agent__siemens_open62541__platform__private__read_machine_part_program_name.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__siemens_open62541\platform\windows\agent__siemens_open62541__platform__private__read_machine_status_alarm.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__siemens_open62541\platform\windows\agent__siemens_open62541__platform__private__read_machine_status_run.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__siemens_open62541\platform\windows\agent__siemens_open62541__platform__private__start.c" />
+    <ClCompile Include="..\..\source\i4mp\agents\agent__siemens_open62541\platform\windows\agent__siemens_open62541__platform__private__stop.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{a2363f37-4e5e-4e66-bd2f-7da0e7f8f08e}</ProjectGuid>
+    <RootNamespace>i4mp</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-64-bit-debug-lib|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-1.1.9-64-bit-debug-lib|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-64-bit-debug-lib|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-1.1.9-64-bit-debug-lib|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-64-bit-debug-lib|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-1.1.9-64-bit-debug-lib|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-64-bit-debug-lib|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-1.1.9-64-bit-debug-lib|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\build\project-1--windows--exe--64-bit--debug--msvc-v142</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-64-bit-debug-lib|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\build\project-1--windows--exe--64-bit--debug--msvc-v142</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-1.1.9-64-bit-debug-lib|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\build\project-1--windows--exe--64-bit--debug--msvc-v142</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\..\..\..\..\build\project-1--windows-msvc-v142\lib\i4mp-1.2.12-64-bit-debug-lib</OutDir>
+    <TargetName>$(ProjectName)-1.2.12-64-bit-debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-64-bit-debug-lib|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\..\..\..\..\build\project-1--windows-msvc-v142\lib\</OutDir>
+    <TargetName>$(ProjectName)-1.2.6-64-bit-debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-1.1.9-64-bit-debug-lib|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\..\..\..\..\build\project-1--windows-msvc-v142\i4mp-lib\</OutDir>
+    <TargetName>$(ProjectName)-1.1.9-64-bit-debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\extern\lib\focas;..\..\extern\lib\mbedtls-yotta-2.3.2-x64;..\..\extern\source\pthread\windows;..\..\extern\source\open62541;..\..\extern\source\utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;wsock32.lib;mbedTLS.lib;pthread-2.9.1.0-x64.lib;Fwlib64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\extern\lib\mbedtls-yotta-2.3.2-x64;..\..\extern\lib\focas;..\..\extern\lib\pthread\windows</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-64-bit-debug-lib|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\extern\lib\focas;..\..\extern\lib\mbedtls-yotta-2.3.2-x64;..\..\extern\source\pthread\windows;..\..\extern\source\open62541;..\..\extern\source\utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;wsock32.lib;mbedTLS.lib;pthread-2.9.1.0-x64.lib;Fwlib64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\extern\lib\mbedtls-yotta-2.3.2-x64;..\..\extern\lib\focas;..\..\extern\lib\pthread\windows</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-1.1.9-64-bit-debug-lib|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\extern\lib\focas;..\..\extern\lib\mbedtls-yotta-2.3.2-x64;..\..\extern\source\pthread\windows;..\..\extern\source\open62541;..\..\extern\source\utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;wsock32.lib;mbedTLS.lib;pthread-2.9.1.0-x64.lib;Fwlib64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\extern\lib\mbedtls-yotta-2.3.2-x64;..\..\extern\lib\focas;..\..\extern\lib\pthread\windows</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\source\i4mp;..\..\source\i4mp\agents;..\..\source\i4mp\agents\siemens-open62541;..\..\extern\source\open62541\platform\windows;..\..\source\i4mp\agents\okuma-mt;..\..\source\i4mp\agents\okuma-mt\platform\windows;..\..\source\i4mp\agents\fanuc-focas\platform\windows;..\..\source\i4mp\agents\agent__fanuc_focas\platform\windows;..\..\source\i4mp\agents\fanuc-focas;..\..\extern\source\utils;..\..\extern\lib\pthreads\platform\windows\pthreds4w-3.0.0-x86-64-release-lib;..\..\extern\lib\focas\platform\windows\Fwlib64;..\..\extern\lib\mbedtls-yotta-2.3.2-x64\platform\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;wsock32.lib;mbedTLS.lib;Fwlib64.lib;pthreds4w-3.0.0-x86-64-release.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\extern\lib\pthreads\platform\windows\pthreds4w-3.0.0-x86-64-release-lib;..\..\extern\lib\mbedtls-yotta-2.3.2-x64\platform\windows\;..\..\extern\lib\focas\platform\windows\Fwlib64</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-64-bit-debug-lib|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\source\i4mp;..\..\source\i4mp\agents\siemens-open62541;..\..\extern\source\open62541\platform\windows;..\..\source\i4mp\agents\okuma-mt;..\..\source\i4mp\agents\okuma-mt\platform\windows;..\..\source\i4mp\agents\fanuc-focas;..\..\source\i4mp\agents\fanuc-focas\platform\windows;..\..\extern\source\utils;..\..\extern\lib\pthreads\platform\windows\pthreds4w-3.0.0-x86-64-release-lib;..\..\extern\lib\focas\platform\windows\Fwlib64;..\..\extern\lib\mbedtls-yotta-2.3.2-x64\platform\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;wsock32.lib;mbedTLS.lib;Fwlib64.lib;pthreds4w-3.0.0-x86-64-release.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\extern\lib\pthreads\windows\pthreds4w-3.0.0-x86-64-release-lib;..\..\extern\lib\mbedtls-yotta-2.3.2-x64;..\..\extern\lib\focas\windows\Fwlib64</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='i4mp-1.1.9-64-bit-debug-lib|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\..\source\i4mp\fanuc-focas;..\..\source\i4mp;..\..\extern\lib\pthreads\windows\pthreds4w-3.0.0-x86-64-release-lib;..\..\extern\lib\focas\windows\Fwlib64;..\..\source\i4mp\siemens-open62541;..\..\source\i4mp\okuma-mt;..\..\source\i4mp\okuma-mt\platform\windows;..\..\extern\lib\mbedtls-yotta-2.3.2-x64;..\..\extern\source\open62541;..\..\extern\source\utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;wsock32.lib;mbedTLS.lib;Fwlib64.lib;pthreds4w-3.0.0-x86-64-release.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\extern\lib\pthreads\windows\pthreds4w-3.0.0-x86-64-release-lib;..\..\extern\lib\mbedtls-yotta-2.3.2-x64;..\..\extern\lib\focas\windows\Fwlib64</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

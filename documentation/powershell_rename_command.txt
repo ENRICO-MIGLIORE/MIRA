@@ -1,0 +1,12 @@
+
+#
+# rename .c files
+#
+ls *.c | Rename-Item -NewName {$_.name -replace "siemens_open62541","okuma_tcp"}
+
+
+#
+# rename .h files
+#
+ls *.h | Rename-Item -NewName {$_.name -replace "siemens_open62541","okuma_tcp"}
+

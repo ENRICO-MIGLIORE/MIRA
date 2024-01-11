@@ -1,0 +1,59 @@
+#
+# The semicolon character ; is the field separator. 
+#
+# If a field has to contain a semicolon than the user must convert it to: !s
+#
+#       !s  is converted to  ;
+#
+#       !!  is converted to  !
+#
+#       !c  is converted to  !    provided c is any character but s and !
+#
+
+
+
+[AGENTS]
+ENABLE PRINTF = YES
+ENABLE LOG FILE = YES
+LOG FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\log\i4mp_log.txt
+MAX LOG FILE LINES PER MINUTE = 120
+PROBABILITY OF SUCCESS OF EVENTS IN SIMULATION MODE = 95
+THREAD SLEEP TIME = 30
+
+
+
+[SIEMENS-OPEN62541 MACHINE]
+ID = 5
+NAME = SCY45HT-2018
+NETWORKED = YES/MO
+MODE = RUN/SIMULATION
+OPC SERVER IP-V4 ADDRESS = 192.168.1.38
+OPC SERVER IP-V4 PORT = 4840
+OPC SERVER USER NAME = OpcUaClient
+OPC SERVER PASSWORD = SUNRISE1
+OPC SERVER PART COUNTER NODE PATH = /Nck/State/aDbd[236]
+OPC SERVER CYCLE TIME NODE PATH = /Channel/Parameter/rpa[u1,90]
+OPC SERVER PART PROGRAM NAME NODE PATH = /Channel/ProgramInfo/workPNameLong
+OPC CLIENT PRIVATE KEY FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\certificates\server_key.der
+OPC CLIENT PRIVATE CERTIFICATE FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\certificates\server_cert.der
+
+
+[FANUC-FOCAS MACHINE]
+ID = 5
+NAME = SCY45HT-2018
+NETWORKED = YES/MO
+MODE = RUN/SIMULATION
+
+OPC SERVER IP-V4 ADDRESS = -
+OPC SERVER IP-V4 PORT = -
+OPC SERVER USER NAME = -
+OPC SERVER PASSWORD = SUNRISE1
+OPC SERVER PART COUNTER NODE PATH = /Nck/State/aDbd[236]
+OPC SERVER CYCLE TIME NODE PATH = /Channel/Parameter/rpa[u1,90]
+OPC SERVER PART PROGRAM NAME NODE PATH = /Channel/ProgramInfo/workPNameLong
+OPC CLIENT PRIVATE KEY FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\certificates\server_key.der
+OPC CLIENT PRIVATE CERTIFICATE FILE = D:\PROGS\prog-97--i4mp\deployment-examples\project-1--windows\example-1\certificates\server_cert.der
+
+
+TCP IP-V4 ADDRESS = 192.168.1.38
+TCP IP-V4 PORT = 192.168.1.38

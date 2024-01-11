@@ -1,0 +1,100 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30136.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"D:\\PROGRAMMI\\24 - MSVC 2019 COMMUNITY\\COMMUNITY\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x003EC1B0 -il C:\\Users\\Admin\\AppData\\Local\\Temp\\_CL_e0617726ast -typedil -f ..\\..\\source\\i4mp\\agents\\agent__load_machines_configuration.c -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930136 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -I D:\\PROGS\\prog-97--i4mp\\source\\i4mp -I D:\\PROGS\\prog-97--i4mp\\source\\i4mp\\agents -I D:\\PROGS\\prog-97--i4mp\\source\\i4mp\\agents\\siemens-open62541 -I D:\\PROGS\\prog-97--i4mp\\extern\\source\\open62541\\platform\\windows -I D:\\PROGS\\prog-97--i4mp\\source\\i4mp\\agents\\okuma-mt -I D:\\PROGS\\prog-97--i4mp\\source\\i4mp\\agents\\okuma-mt\\platform\\windows -I D:\\PROGS\\prog-97--i4mp\\source\\i4mp\\agents\\fanuc-focas\\platform\\windows -I D:\\PROGS\\prog-97--i4mp\\source\\i4mp\\agents\\fanuc-focas -I D:\\PROGS\\prog-97--i4mp\\extern\\source\\utils -I D:\\PROGS\\prog-97--i4mp\\extern\\lib\\pthreads\\platform\\windows\\pthreds4w-3.0.0-x86-64-release-lib -I D:\\PROGS\\prog-97--i4mp\\extern\\lib\\focas\\platform\\windows\\Fwlib64 -I D:\\PROGS\\prog-97--i4mp\\extern\\lib\\mbedtls-yotta-2.3.2-x64\\platform\\windows -nologo -W 4 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_CRT_SECURE_NO_WARNINGS -DWIN32_LEAN_AND_MEAN -D_UNICODE -DUNICODE -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Fox64\\Debug\\agent__load_machines_configuration.obj -Fdx64\\Debug\\vc142.pdb -external:W 4 -Gd -analyze:projectdirectory D:\\PROGS\\prog-97--i4mp\\projects\\project-1--windows-msvc-v142 -analyze:rulesetdirectory ;D:\\PROGRAMMI\\24 - MSVC 2019 COMMUNITY\\COMMUNITY\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\PROGRAMMI\\24 - MSVC 2019 COMMUNITY\\COMMUNITY\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\PROGRAMMI\\24 - MSVC 2019 COMMUNITY\\COMMUNITY\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I D:\\PROGRAMMI\\24 - MSVC 2019 COMMUNITY\\COMMUNITY\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\PROGRAMMI\\24 - MSVC 2019 COMMUNITY\\COMMUNITY\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\PROGRAMMI\\24 - MSVC 2019 COMMUNITY\\COMMUNITY\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -I D:\\PROGS\\prog-97--i4mp\\projects\\project-1--windows-msvc-v142\\Include\\um -external:I D:\\PROGRAMMI\\24 - MSVC 2019 COMMUNITY\\COMMUNITY\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\PROGRAMMI\\24 - MSVC 2019 COMMUNITY\\COMMUNITY\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I D:\\PROGRAMMI\\24 - MSVC 2019 COMMUNITY\\COMMUNITY\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\PROGRAMMI\\24 - MSVC 2019 COMMUNITY\\COMMUNITY\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I D:\\PROGRAMMI\\24 - MSVC 2019 COMMUNITY\\COMMUNITY\\VC\\Auxiliary\\VS\\include -I D:\\PROGRAMMI\\24 - MSVC 2019 COMMUNITY\\COMMUNITY\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -external:I D:\\PROGS\\prog-97--i4mp\\projects\\project-1--windows-msvc-v142\\Include\\um -I D:\\PROGS\\prog-97--i4mp\\projects\\project-1--windows-msvc-v142\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/progs/prog-97--i4mp/source/i4mp/agents/agent__load_machines_configuration.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "1ffe74318797dbe81687a2d16c433deb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/progs/prog-97--i4mp/source/i4mp/agents/agent.h"
+          },
+          "hashes": {
+            "md5": "8de772d37b438ff5407555906b553f86"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/progs/prog-97--i4mp/extern/lib/pthreads/platform/windows/pthreds4w-3.0.0-x86-64-release-lib/pthread.h"
+          },
+          "hashes": {
+            "md5": "d0080b826e223ad8025d79764eccb2d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/progs/prog-97--i4mp/extern/lib/pthreads/platform/windows/pthreds4w-3.0.0-x86-64-release-lib/_ptw32.h"
+          },
+          "hashes": {
+            "md5": "b4e99f0abedbe1dcae46502319565c25"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/progs/prog-97--i4mp/extern/lib/pthreads/platform/windows/pthreds4w-3.0.0-x86-64-release-lib/sched.h"
+          },
+          "hashes": {
+            "md5": "d110c8625339a49777b85d8952cbbeb1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/progs/prog-97--i4mp/extern/source/utils/utils__platform.h"
+          },
+          "hashes": {
+            "md5": "be91ed081d54c3e4eb73b50d0a733e61"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/progs/prog-97--i4mp/extern/source/utils/utils__libc.h"
+          },
+          "hashes": {
+            "md5": "317b999abc6456d7e5a8b4dd271a2d83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/progs/prog-97--i4mp/extern/source/utils/utils__printf.h"
+          },
+          "hashes": {
+            "md5": "4939d100b54423add45c80b033f29ea5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/progs/prog-97--i4mp/extern/source/utils/utils__sdb.h"
+          },
+          "hashes": {
+            "md5": "9aacbb2f95b7bd29da130f4c2b4a0c63"
+          }
+        }
+      ]
+    }
+  ]
+}

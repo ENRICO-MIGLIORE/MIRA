@@ -1,0 +1,37 @@
+﻿D:\PROGRAMMI\24 - MSVC 2019 COMMUNITY\COMMUNITY\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  agent__fanuc_focas__config.c
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__config.c(9,63): warning C4100: 'config': unreferenced formal parameter
+  agent__fanuc_focas__connect_to_machine.c
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\Fwlib32.h(4951,23): warning C4121: '<unnamed-tag>': alignment of a member was sensitive to packing
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__connect_to_machine.c(17,9): warning C4101: 'len': unreferenced local variable
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__connect_to_machine.c(14,14): warning C4101: 'ipv4_address': unreferenced local variable
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__connect_to_machine.c(12,17): warning C4101: 'machine_handle': unreferenced local variable
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__connect_to_machine.c(11,8): warning C4101: 'rc': unreferenced local variable
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__connect_to_machine.c(18,6): warning C4101: 'n': unreferenced local variable
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__connect_to_machine.c(15,17): warning C4101: 'ipv4_port': unreferenced local variable
+  agent__fanuc_focas__get_machine_id.c
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__get_machine_id.c(11,91): warning C4100: 'buffer_len': unreferenced formal parameter
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__get_machine_id.c(11,70): warning C4100: 'buffer_size': unreferenced formal parameter
+  agent__fanuc_focas__get_number_of_machines.c
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__get_number_of_machines.c(4,54): warning C4100: 'number_of_machines': unreferenced formal parameter
+  agent__fanuc_focas__init.c
+  agent__fanuc_focas__is_agent_configured.c
+  agent__fanuc_focas__read_machine_cycle_time.c
+D:\PROGS\prog-97--i4mp\extern\lib\focas\platform\windows\Fwlib64\Fwlib64.h(4973,23): warning C4121: '<unnamed-tag>': alignment of a member was sensitive to packing
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__read_machine_cycle_time.c(62,21): warning C4047: '=': 'char *' differs in levels of indirection from 'char'
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__read_machine_cycle_time.c(67,21): warning C4047: '=': 'char *' differs in levels of indirection from 'long'
+  agent__fanuc_focas__read_machine_part_counter.c
+D:\PROGS\prog-97--i4mp\extern\lib\focas\platform\windows\Fwlib64\Fwlib64.h(4973,23): warning C4121: '<unnamed-tag>': alignment of a member was sensitive to packing
+  agent__fanuc_focas__read_machine_part_program_name.c
+D:\PROGS\prog-97--i4mp\extern\lib\focas\platform\windows\Fwlib64\Fwlib64.h(4973,23): warning C4121: '<unnamed-tag>': alignment of a member was sensitive to packing
+  agent__fanuc_focas__start.c
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__start.c(13,9): warning C4101: 'milliseconds': unreferenced local variable
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__start.c(12,6): warning C4101: 'done': unreferenced local variable
+  agent__fanuc_focas__stop.c
+  agent__fanuc_focas__sleep_thread.c
+  agent__fanuc_focas__thread.c
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__thread.c(51,35): warning C4013: 'agent__fanuc_focas__sleep_thread' undefined; assuming extern returning int
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__thread.c(53,46): warning C4013: 'agent__fanuc_focas__connect_to_machine' undefined; assuming extern returning int
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__thread.c(66,52): warning C4013: 'agency__private__read_machine_part_counter' undefined; assuming extern returning int
+D:\PROGS\prog-97--i4mp\source\i4mp\agents\agent__fanuc_focas\platform\windows\agent__fanuc_focas__thread.c(68,57): warning C4013: 'agency__private__read_machine_part_program_name' undefined; assuming extern returning int
+  Generating Code...
