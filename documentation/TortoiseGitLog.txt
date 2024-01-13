@@ -1,0 +1,19 @@
+git.exe push --progress "https://github.com/ENRICO-MIGLIORE/MIRA.git" master
+Enumerating objects: 1406, done.
+Counting objects: 100% (1406/1406), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (1363/1363), done.
+Writing objects: 100% (1406/1406), 172.71 MiB | 852.00 KiB/s, done.
+Total 1406 (delta 524), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (524/524), done.
+remote: warning: See https://gh.io/lfs for more information.
+remote: warning: File projects/project-1--windows-msvc-v142/.vs/i4mp/v16/Browse.VC.db is 50.30 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/ENRICO-MIGLIORE/MIRA/pull/new/master
+remote:
+To https://github.com/ENRICO-MIGLIORE/MIRA.git
+* [new branch]      master -> master
+
+Success (245735 ms @ 11/01/2024 17:17:39)
